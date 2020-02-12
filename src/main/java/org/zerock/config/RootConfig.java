@@ -20,6 +20,7 @@ public class RootConfig {
 		hikariConfig.setUsername("book_ex");
 		hikariConfig.setPassword("book_ex");
 		
+		
 		HikariDataSource dataSource = new HikariDataSource(hikariConfig);
 		
 		return dataSource;
